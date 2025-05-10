@@ -52,17 +52,17 @@
 2.Найдите блок **SETTINGS** в начале:
 # ──────────────── SETTINGS ───────────────────────────
 
-  BOT_TOKEN      = "PASTE_YOUR_BOT_TOKEN"
+    BOT_TOKEN      = "PASTE_YOUR_BOT_TOKEN"
 
-  CHANNEL_ID     = "@scicosmo_digest"
+    CHANNEL_ID     = "@scicosmo_digest"
 
-  TZ             = pytz.timezone("Europe/Kyiv")
+    TZ             = pytz.timezone("Europe/Kyiv")
 
-  QUEUE_FILE     = Path("posts.json")
+    QUEUE_FILE     = Path("posts.json")
 
-  POST_EVERY_SEC = 30
+    POST_EVERY_SEC = 30
 
-  OWNER_ID       = 123456789
+    OWNER_ID       = 123456789
 
 3.Замените значения на свои:
 
